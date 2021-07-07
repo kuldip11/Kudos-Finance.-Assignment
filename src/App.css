@@ -1,0 +1,58 @@
+
+.App{
+  height:100vh;
+  width: 100vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: black; */
+}
+.display{
+  height:70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.timer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 100%; */
+  /* color: rgb(83, 36, 138); */
+  height:30vh;
+  width: 30vh;
+  background-color: rgb(165, 165, 165);
+  /* background-color: rgb(230, 179, 245); */
+  border: 1px solid black;
+  border-radius: 50%;
+  transition-property: border-radius,height,width,border;
+  transition-duration: 2s;
+  cursor: pointer;
+
+}
+
+.time{
+    font-size: 5vh;
+}
+
+.timer:hover {
+  border-radius: 20px;
+  width: 30vh;
+  height: 30vh;
+  border:2px solid rgb(149, 143, 153);
+}
+
+
+.dark{
+  background-color: rgb(87, 87, 87);
+  color:white;
+
+}
+.light{
+  background-color: white;
+  color: black;
+}
